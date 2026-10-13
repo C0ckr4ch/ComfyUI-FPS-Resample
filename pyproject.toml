@@ -1,0 +1,14 @@
+[project]
+name = "comfyui-fps-resample"
+description = "ComfyUI custom node to resample image batches / video frames to target FPS while preserving duration."
+version = "1.0.0"
+license = { file = "LICENSE" }
+dependencies = ["torch>=1.13.0"]
+
+[project.urls]
+Repository = "https://github.com/C0ckr4ch/ComfyUI-FPS-Resample"
+
+[tool.comfy]
+PublisherId = "c0ckr4ch"
+DisplayName = "ComfyUI FPS Resample (Preserve Duration)"
+Icon = ""
